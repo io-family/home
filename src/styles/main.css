@@ -409,23 +409,23 @@ strong {
 }
 
 .cf-icon-browser {
-    background-image: url(./cdn-cgi/images/cf-icon-browser.png)
+    background-image: url(/assets/cdn-cgi/images/cf-icon-browser.png)
 }
 
 .cf-icon-cloud {
-    background-image: url(./cdn-cgi/images/cf-icon-cloud.png)
+    background-image: url(/assets/cdn-cgi/images/cf-icon-cloud.png)
 }
 
 .cf-icon-server {
-    background-image: url(./cdn-cgi/images/cf-icon-server.png)
+    background-image: url(/assets/cdn-cgi/images/cf-icon-server.png)
 }
 
 .cf-icon-ok {
-    background-image: url(./cdn-cgi/images/cf-icon-ok.png)
+    background-image: url(/assets/cdn-cgi/images/cf-icon-ok.png)
 }
 
 .cf-icon-error {
-    background-image: url(./cdn-cgi/images/cf-icon-error.png)
+    background-image: url(/assets/cdn-cgi/images/cf-icon-error.png)
 }
 
 #cf-wrapper .feedback-hidden {
