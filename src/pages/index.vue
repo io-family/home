@@ -12,18 +12,11 @@
 </template>
 
 <script setup>
-//
-</script>
+import { inject, onMounted } from 'vue';
 
-<script>
-  function ab() {
-    if (Math.round(Math.random())) {
-      return "https://voiddominator.github.io/help.kevinhu.world/";
-    } else {
-      return "https://iokb.wuff.dog";
-    }
-  }
-  document.querySelectorAll(".KnowledgeBaseLink").forEach(function (link) {
-    link.href = ab();
-  });
+const abTest = inject('abTest');
+
+onMounted(() => {
+    abTest("KnowledgeBaseLink");
+});
 </script>
