@@ -15,7 +15,7 @@
     "host_text": "西山数据",
     "host_status": "正常",
 
-    "what_happened_text": "（洛克）干什么？",
+    "what_happened_text": "(洛克) 干什么？",
     "what_happened_description": "近野通信的网络与源服务器之间的连接收到了重复的媒体。因此，画画有害健康。",
     "welcome_text": "欢迎！",
     "welcome_description": "我们致力于使您的体验宾至如归（就和出门左转回家一样），因为这将是我们的主页（希望不要变成家具城，不要到处放灯，至翰！）",
@@ -24,7 +24,7 @@
 
     "instructions_text": "不知道在干什么？",
     "condition_rainborn": "如果您出生在雨天：",
-    "rainborn_description": "如您所见，此网站正在正常工作。一直盯着它看干嘛，没什么好看的。",
+    "rainborn_description": "如您所见，此网站正在正常工作。一直盯着看干嘛，有什么特别的吗？",
     "condition_visitor": "如果您正在尝试访问一个网站：",
     "visitor_description": "你真棒！你到达了一个网站！等过了几分钟感觉无聊了，请离开这个网站，去其他地方看看吧。",
     "condition_ab_tester": "如果您正在寻找某种 A/B 测试：",

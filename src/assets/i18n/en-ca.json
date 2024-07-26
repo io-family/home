@@ -34,9 +34,9 @@
     "troubleshoot_link_text": "Additional troubleshooting information here.",
 
     "ray_id_text": "NearField Ray ID: ",
-    "visitor_ip_text": "Your IP: ",
+    "visitor_ip_text": "Your IP:",
     "reveal_ip_button_text": "Click to reveal",
-    "cf_link_before": "\"Performance\" &amp; \"security\" by",
+    "cf_link_before": "\"Performance\" & \"security\" by",
     "cf_link_text": "NearField Communications",
     "cf_link_after": ""
 }
