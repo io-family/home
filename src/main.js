@@ -20,13 +20,13 @@ import zh_cn from '@/assets/i18n/zh-cn.json'
 
 const app = createApp(App)
 const i18n = createI18n({
-    legacy: false,
-    locale: navigator.language.toLowerCase(),
-    fallbackLocale: 'en-ca',
-    messages: {
-        'en-ca': en_ca,
-        'zh-cn': zh_cn
-    }
+  legacy: false,
+  locale: navigator.language.toLowerCase(),
+  fallbackLocale: 'en-ca',
+  messages: {
+    'en-ca': en_ca,
+    'zh-cn': zh_cn
+  }
 })
 
 registerPlugins(app)
