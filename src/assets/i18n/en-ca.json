@@ -1,0 +1,42 @@
+{
+    "title_welcome_back": "Welcome Back!",
+    "error_code_label": "Error code 3933: Repeating Media",
+    "information_link_before": "Visit ",
+    "information_link_text": "our knowledge base",
+    "information_link_after": " for more information.",
+
+    "you_text": "You",
+    "browser_text": "Brain",
+    "browser_status": "Confused",
+    "cf_location_text": "Suzhou",
+    "cf_brand_name": "NearField Communications",
+    "cf_status": "Working",
+    "site_domain": "io-family.com",
+    "host_text": "WestMountain Digital",
+    "host_status": "Working",
+
+    "what_happened_text": "What happened?",
+    "what_happened_description": "The initial connection between NearField's network and the origin web server has resulted in repeating media. As a result, drawing is bad for your health.",
+    "welcome_text": "Welcome!",
+    "welcome_description": "Make yourself at home (literally). Because this is going to be our home page for the next while (maybe even forever).",
+    "future_plans_text": "Future Plans",
+    "future_plans_description": "TBD",
+
+    "instructions_text": "What can I do?",
+    "condition_rainborn": "If you were born on a rainy day:",
+    "rainborn_description": "The website is working as intended. Move along, nothing to see here.",
+    "condition_visitor": "If you're trying to visit a website:",
+    "visitor_description": "Good for you! You are now seeing a website! Please stop visiting and go somewhere else in a few minutes.",
+    "condition_ab_tester": "If you're looking for some sort of A/B test:",
+    "ab_tester_description": "Maybe refresh? Or check a different link on the page?",
+    "condition_owner": "If you're the owner of said website:",
+    "owner_description": "You can rest assured that things are working as intended. There is no need to address any concerns that you are reciveing regarding to this situation. Contact your hosting provider to let them know that your web server is doing perfectly fine. An Error 3933 means that the request was able to connect to your web server, but that the response is repeating. The most likely cause is that there are multiple LuckyGoogles™ in your car.", 
+    "troubleshoot_link_text": "Additional troubleshooting information here.",
+
+    "ray_id_text": "NearField Ray ID: ",
+    "visitor_ip_text": "Your IP:",
+    "reveal_ip_button_text": "Click to reveal",
+    "cf_link_before": "\"Performance\" & \"security\" by",
+    "cf_link_text": "NearField Communications",
+    "cf_link_after": ""
+}
