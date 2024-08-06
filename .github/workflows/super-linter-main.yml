@@ -8,9 +8,8 @@ name: Lint
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches-ignore: [ "main" ]
+
 jobs:
   run-lint:
     runs-on: ubuntu-latest
