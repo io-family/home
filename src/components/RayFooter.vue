@@ -14,13 +14,29 @@
       </span>
       <span class="cf-footer-item sm:block sm:mb-1"><span>{{ $t("cf_link_before") }}</span> <a rel="noopener noreferrer"
           class="KnowledgeBaseLink" target="_self">{{ $t("cf_link_text") }}</a>{{ $t("cf_link_after") }}</span>
-
+      <span class="cf-footer-separator sm:hidden"> • </span>
+      <v-btn icon="mdi-earth" density="compact">
+        <v-menu activator="parent" location="end">
+          <v-list>
+            <v-list-item v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale"
+              @click="swichLocale(locale)">
+              <v-list-item-title>{{ $t(locale) }}</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+      </v-btn>
     </p>
   </div>
 </template>
 
 <script setup>
+import { useI18n } from 'vue-i18n';
 
+const { locale } = useI18n();
+
+const swichLocale = (newLocale) => {
+  locale.value = newLocale;
+}
 </script>
 
 <script>
