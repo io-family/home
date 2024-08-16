@@ -38,5 +38,8 @@
     "reveal_ip_button_text": "即点即输",
     "cf_link_before": "由",
     "cf_link_text": "近野通信",
-    "cf_link_after": "提供“性能”与“安全”"
+    "cf_link_after": "提供“性能”与“安全”",
+
+    "en-ca": "English",
+    "zh-cn": "中文（简单）"
 }
